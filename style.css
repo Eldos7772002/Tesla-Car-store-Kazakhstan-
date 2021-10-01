@@ -8,6 +8,21 @@ body {
     opacity: 1;
     margin: 0;
 }
+@media(max-width:1016px){
+    .all1{
+         height:600px;
+   }
+}
+@media(max-width:768px){
+    .all1{
+         height:400px;
+   }
+}
+@media(max-width:480px){
+   .all1{
+         height:250px;
+   }
+} 
 .all1{
     
 	 width: 100%;
