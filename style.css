@@ -10,7 +10,7 @@ body {
 }
 .all1{
     
-	 width: 1519px;
+	 width: 100%;
 	height: 800px;	
 background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-plaid.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -41,29 +41,58 @@ background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-pl
     font-size: 16pt;
     color:  rgba(0,0,0,.55);
 }
-.double1{
-    height: 50px;
-    width:190px;
-    border-radius: 40px;
-    background-color: ;
-    margin-top: 400px;
-    margin-left: 480px;
-    opacity: 0.5;
+.all2{
+    
+     width: 100%;
+    height: 800px;  
+background: url(https://pbs.twimg.com/media/E83beR1XEAoOFyv.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: auto;
+        background-size: cover;
+
 }
-.double1 p{
-    text-align: center;
-   font-size: 22px;
+.all3{
+    
+     width: 100%;
+    height: 800px;  
+background: url(https://avtoblog.ua/Media/files/filemanager/17%20октябряNew%20folder/New%20folder/18%20октябряNew%20folder/New%20folder/19%20октябряNew%20folder/New%20folder/20%20октябряNew%20folder/1459879770_2016-tesla-model-x-p90d-front-three-quarter-in-motion-e1459357719515.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: auto;
+        background-size: cover;
+
 }
-.double2{
-    height: 50px;
-    width:190px;
-    border-radius: 40px;
-    background-color: white;
-    margin-top: -75px;
-    margin-left: 850px;
-    opacity: 0.5;
+.all4{
+    
+     width: 100%;
+    height: 800px;  
+background: url(https://www.windowtintandkits.com/wp-content/uploads/2018/12/project-tifany-x-tesla-model-x-p90d-pearl-white-22-inch-forged-wheels-carbon-fiber-steering-wheel-2.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: auto;
+        background-size: cover;
+
 }
-.double2 p{
-    text-align: center;
-   font-size: 22px;
+.all5{
+    
+     width: 100%;
+    height: 800px;  
+background: url(https://www.motortrend.com/uploads/sites/5/2017/11/2017-Tesla-Model-3-front-three-quarter-in-motion-01.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: auto;
+        background-size: cover;
+
+}
+.all6{
+    
+     width: 100%;
+    height: 800px;  
+background: url(https://somanyhorses.ru/wp-content/images/news/avto-novosti/2018/02/tesla-model-3-priedet-v-rossiju-i-budet-prodavatsja-v-dvuh-versijah/1.JPG) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: auto;
+        background-size: cover;
+
 }
