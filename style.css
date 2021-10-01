@@ -9,18 +9,53 @@ body {
     margin: 0;
 }
 @media(max-width:1016px){
-    .all1{
+    #all1{
          height:600px;
    }
 }
 @media(max-width:768px){
-    .all1{
+    #all1{
          height:400px;
    }
 }
 @media(max-width:480px){
-   .all1{
-         height:250px;
+   #all1{
+         height:50px;
+         font-size: 5px;
+
+   }
+} 
+@media(max-width:1016px){
+    #all2{
+         height:600px;
+   }
+}
+@media(max-width:768px){
+    #all2{
+         height:400px;
+   }
+}
+@media(max-width:480px){
+   #all2{
+         height:50px;
+
+   }
+} 
+@media(max-width:1016px){
+    #all3{
+         height:600px;
+         font-size: 5px;
+   }
+}
+@media(max-width:768px){
+    #all3{
+         height:400px;
+   }
+}
+@media(max-width:480px){
+   #all3{
+         height:50px;
+
    }
 } 
 .all1{
