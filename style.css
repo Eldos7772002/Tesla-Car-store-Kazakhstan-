@@ -18,9 +18,9 @@ body {
          height:400px;
    }
 }
-@media(max-width:480px){
+@media(max-width:375px){
    #all1{
-         height:500px;
+         height:820px;
          font-size: 5px;
 
    }
@@ -35,9 +35,9 @@ body {
          height:400px;
    }
 }
-@media(max-width:480px){
+@media(max-width:375px){
    #all2{
-         height:50px;
+         height:820px;
 
    }
 } 
@@ -52,9 +52,9 @@ body {
          height:400px;
    }
 }
-@media(max-width:480px){
+@media(max-width:375px){
    #all3{
-         height:50px;
+         height:820px;
 
    }
 } 
