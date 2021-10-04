@@ -136,7 +136,7 @@ background: url(https://www.motortrend.com/uploads/sites/5/2017/11/2017-Tesla-Mo
 
 }
 .all6{
-    
+    margin-top: -20px;
      width: 100%;
     height: 800px;  
 background: url(https://somanyhorses.ru/wp-content/images/news/avto-novosti/2018/02/tesla-model-3-priedet-v-rossiju-i-budet-prodavatsja-v-dvuh-versijah/1.JPG) no-repeat center center fixed;
@@ -145,4 +145,30 @@ background: url(https://somanyhorses.ru/wp-content/images/news/avto-novosti/2018
         -o-background-size: auto;
         background-size: cover;
 
+}
+.ModelX{
+    text-align: center;
+    font-size: 45px;
+    color:  rgba(0,0,0,.55);
+}
+.km{
+    font-size: 40px;
+    margin-top: 100px;
+
+}
+.c{
+    margin-top: -100px;
+    margin-left: 300px;
+    font-size: 40px;
+    color:  white;      
+}
+.kmc{
+    margin-top:-15px;
+    margin-left: 300px;
+  
+    color:  white;  }
+    .Model3{
+    text-align: center;
+    font-size: 45px;
+    color:  rgba(0,0,0,.55);
 }
