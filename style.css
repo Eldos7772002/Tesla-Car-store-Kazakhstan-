@@ -6,7 +6,7 @@ body {
     font-family: RobotoLight, sans-serif;
     overflow-x: hidden;
     opacity: 1;
-    margin: 0;
+    margin: 0 auto;
 }
 @media(max-width:1016px){
     #all1{
@@ -20,7 +20,7 @@ body {
 }
 @media(max-width:480px){
    #all1{
-         height:50px;
+         height:500px;
          font-size: 5px;
 
    }
