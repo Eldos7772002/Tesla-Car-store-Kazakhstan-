@@ -10,7 +10,9 @@ body {
 }
 @media(max-width:1016px){
     #all1{
-         height:600px;
+        width: 1200px;
+         height:2000px;
+
    }
 }
 @media(max-width:768px){
@@ -20,14 +22,14 @@ body {
 }
 @media(max-width:375px){
    #all1{
-         height:820px;
-         font-size: 5px;
-
+         height:1520px;
+    
    }
 } 
 @media(max-width:1016px){
     #all2{
-         height:600px;
+          width: 1200px;
+         height:2000px;
    }
 }
 @media(max-width:768px){
@@ -43,8 +45,8 @@ body {
 } 
 @media(max-width:1016px){
     #all3{
-         height:600px;
-         font-size: 5px;
+       width: 1200px;
+         height:2000px;
    }
 }
 @media(max-width:768px){
