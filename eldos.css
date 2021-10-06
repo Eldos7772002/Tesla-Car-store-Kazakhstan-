@@ -1,0 +1,16 @@
+.Model{
+    text-align: center;
+    font-size: 40px;
+    color:  white;
+}
+.edd-left-descr {
+    display: inline-block;
+    width: 18%;
+    text-align: left;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    position: relative;
+}
+.body{
+    color: white;
+}
