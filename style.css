@@ -81,6 +81,142 @@ background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-pl
     text-align: center;
     font-size: 40px;
     color:  rgba(0,0,0,.55);
+
+    transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.Model._active{
+     
+    transform: translate(0px,0px);
+    opacity: 1;
+
+}
+.Modely {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
+
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.5s;
+}
+.Modely._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.Models {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
+
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.Models._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.Modelx {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
+
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.Modelx._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.Almaty {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
+
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.6s;
+}
+.Almaty._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.login {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
+
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.7s;
+}
+.login._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.logout {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
+
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.8s;
+}
+.logout._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.Model3 {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
+
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.14s;
+}
+.Model3._active{
+      transform: translate(0px,0px);
+    opacity: 1;
 }
 .geo img{
     width: 25px;
