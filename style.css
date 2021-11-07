@@ -29,11 +29,11 @@ body {
 
 @media(max-width:375px){
    #all1{
-      width: 1336px;
-      height:3000px;
+      width: 375px;
+      height:500px;
    }
    #Models{
-      font-size: 100px;
+      font-size: 200px;
       
    }
 } 
@@ -53,12 +53,7 @@ body {
    }
 }
 
-@media(max-width:375px){
-   #all2{
-      width: 1336px;
-      height: 830px; 
-   }
-} 
+
 
 
 @media(max-width:1016px){
