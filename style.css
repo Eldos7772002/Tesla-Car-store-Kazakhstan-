@@ -8,61 +8,83 @@ body {
     opacity: 1;
     margin: 0 auto;
 }
-@media(max-width:1016px){
-    #all1{
-        width: 1200px;
-         height:2000px;
+
+@media(max-width:1016px){  
+   #all1{
+      width: 1336px;
+      height: 2000px;
+   }
+   #Models{
+      font-size: 40px;
 
    }
 }
+
 @media(max-width:768px){
-    #all1{
-         height:400px;
+   #all1{
+      width: 1336px;
+      height:3000px;
    }
 }
+
 @media(max-width:375px){
    #all1{
-         height:1520px;
-    
+      width: 1336px;
+      height:3000px;
+   }
+   #Models{
+      font-size: 100px;
+      
    }
 } 
+
+
 @media(max-width:1016px){
-    #all2{
-          width: 1200px;
-         height:2000px;
+   #all2{
+      width: 1336px;
+      height: 830px;
    }
 }
+
 @media(max-width:768px){
-    #all2{
-         height:400px;
+   #all2{
+      width: 1336px;
+      height: 830px;
    }
 }
+
 @media(max-width:375px){
    #all2{
-         height:820px;
-
+      width: 1336px;
+      height: 830px; 
    }
 } 
+
+
 @media(max-width:1016px){
-    #all3{
-       width: 1200px;
-         height:2000px;
+   #all3{
+      width: 1336px;
+      height:2000px;
    }
 }
+
 @media(max-width:768px){
-    #all3{
-         height:400px;
+   #all3{
+      width: 1336px;
+      height:2000px;
    }
 }
+
 @media(max-width:375px){
    #all3{
-         height:820px;
-
+      width: 1336px;
+      height:2000px;
    }
 } 
+
 .all1{
     
-	 width: 100%;
+	width: 100%;
 	height: 800px;	
 background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-plaid.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
