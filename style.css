@@ -38,8 +38,16 @@ background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-pl
 }
 @media(max-width:768px){
     #all2{
-         height:400px;
+        height:800px;
+             width: 400px;
+             background: url(https://pbs.twimg.com/media/E83beR1XEAoOFyv.jpg) no-repeat center center;
    }
+   #Ext{
+    margin-top: 20px;
+    margin-left:50px;
+    font-size: 15px;
+   }
+   
 }
 @media(max-width:375px){
    #all2{
@@ -224,6 +232,7 @@ color: rgba(0,0,0,.55);
     opacity: 1;
 }
 .Ext{
+    margin-left: 300px;
     text-align: center!important;
         align-self: center!important;
 flex: 0 0 auto;
