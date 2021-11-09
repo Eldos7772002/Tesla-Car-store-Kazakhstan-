@@ -1,5 +1,4 @@
 body {
-    /* font-size: 16px; */
     min-width: 320px;
     position: relative;
     line-height: 1.75;
@@ -47,7 +46,7 @@ background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-pl
     margin-left:50px;
     font-size: 15px;
    }
-   
+
 }
 @media(max-width:375px){
    #all2{
@@ -63,7 +62,9 @@ background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-pl
 }
 @media(max-width:768px){
     #all3{
-         height:400px;
+          height:800px;
+             width: 400px;
+             background: url(https://avtoblog.ua/Media/files/filemanager/17%20октябряNew%20folder/New%20folder/18%20октябряNew%20folder/New%20folder/19%20октябряNew%20folder/New%20folder/20%20октябряNew%20folder/1459879770_2016-tesla-model-x-p90d-front-three-quarter-in-motion-e1459357719515.jpg) no-repeat center center;
    }
 }
 @media(max-width:375px){
@@ -72,6 +73,12 @@ background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-pl
 
    }
 } 
+@media(max-width:768px){
+    #all4{
+          height:800px;
+             width: 400px;
+   }
+}
 .all1{
     
 	 width: 100%;
