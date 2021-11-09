@@ -8,16 +8,22 @@
         opacity: 1;
         margin: 0 auto;
     }
-    
+    @media(max-width:1016px){
+        #all1{
+            width: 1200px;
+             height:2000px;
+
+       }
+    }
     @media(max-width:768px){
         #all1{
-             height:1000px;
-             width: 450px;
+             height:400px;
        }
     }
     @media(max-width:375px){
        #all1{
-             height:1520px;
+           height:1000px;
+             width: 450px;
         
        }
     } 
