@@ -10,16 +10,17 @@ body {
 }
 @media(max-width:1016px){
     #all1{
-        height:1000px;
-             width: 450px;
+        width: 1200px;
+         height:2000px;
+
 
    }
 }
 @media(max-width:768px){
     #all1{
-          height:1000px;
-             width: 450px;
-	    position: none;
+          height:800px;
+             width: 400px;
+background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-plaid.jpg) no-repeat center center;
    }
 }
 @media(max-width:375px){
@@ -31,19 +32,18 @@ body {
 } 
 @media(max-width:1016px){
     #all2{
-       height:1000px;
-             width: 450px;
+          width: 1200px;
+         height:2000px;
+   }
 }
 @media(max-width:768px){
     #all2{
-         height:1000px;
-             width: 450px;
+         height:400px;
    }
 }
 @media(max-width:375px){
    #all2{
-        height:1000px;
-             width: 450px;
+         height:820px;
 
    }
 } 
@@ -73,6 +73,7 @@ background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-pl
         -moz-background-size: cover;
         -o-background-size: auto;
         background-size: cover;
+       
 
 }
 .bg-light{
