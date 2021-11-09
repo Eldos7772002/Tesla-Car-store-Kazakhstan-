@@ -19,6 +19,7 @@ body {
     #all1{
           height:1000px;
              width: 450px;
+	    position: none;
    }
 }
 @media(max-width:375px){
@@ -67,7 +68,7 @@ body {
     
 	 width: 100%;
 	height: 800px;	
-background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-plaid.jpg) no-repeat center center ;
+background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-plaid.jpg) no-repeat center center fixed ;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: auto;
