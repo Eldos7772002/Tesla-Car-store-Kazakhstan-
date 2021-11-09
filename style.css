@@ -1,446 +1,448 @@
-    body {
-        /* font-size: 16px; */
-        min-width: 320px;
-        position: relative;
-        line-height: 1.75;
-        font-family: RobotoLight, sans-serif;
-        overflow-x: hidden;
-        opacity: 1;
-        margin: 0 auto;
-    }
-    @media(max-width:1016px){
-        #all1{
-            width: 1200px;
-             height:2000px;
-
-       }
-    }
-    @media(max-width:768px){
-        #all1{
-             height:400px;
-       }
-    }
-    @media(max-width:375px){
-       #all1{
-           height:1000px;
+body {
+    /* font-size: 16px; */
+    min-width: 320px;
+    position: relative;
+    line-height: 1.75;
+    font-family: RobotoLight, sans-serif;
+    overflow-x: hidden;
+    opacity: 1;
+    margin: 0 auto;
+}
+@media(max-width:1016px){
+    #all1{
+        height:1000px;
              width: 450px;
-        
-       }
-    } 
-    @media(max-width:1016px){
-        #all2{
-              width: 1200px;
-             height:2000px;
-       }
-    }
-    @media(max-width:768px){
-        #all2{
-             height:400px;
-       }
-    }
-    @media(max-width:375px){
-       #all2{
-             height:820px;
 
-       }
-    } 
-    @media(max-width:1016px){
-        #all3{
-           width: 1200px;
-             height:2000px;
-       }
-    }
-    @media(max-width:768px){
-        #all3{
-             height:400px;
-       }
-    }
-    @media(max-width:375px){
-       #all3{
-             height:820px;
+   }
+}
+@media(max-width:768px){
+    #all1{
+          height:1000px;
+             width: 450px;
+   }
+}
+@media(max-width:375px){
+   #all1{
+       height:1000px;
+             width: 450px;
+    
+   }
+} 
+@media(max-width:1016px){
+    #all2{
+       height:1000px;
+             width: 450px;
+}
+@media(max-width:768px){
+    #all2{
+         height:1000px;
+             width: 450px;
+   }
+}
+@media(max-width:375px){
+   #all2{
+        height:1000px;
+             width: 450px;
 
-       }
-    } 
-    .all1{
-        
-    	 width: 100%;
-    	height: 800px;	
-    background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-plaid.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: auto;
-            background-size: cover;
+   }
+} 
+@media(max-width:1016px){
+    #all3{
+       width: 1200px;
+         height:2000px;
+   }
+}
+@media(max-width:768px){
+    #all3{
+         height:400px;
+   }
+}
+@media(max-width:375px){
+   #all3{
+         height:820px;
 
-    }
-    .bg-light{
-        background-color: none;
-    }
-    .me-auto1{
-        margin-left: 400px;
-    }
-    .Model{
-        text-align: center;
-        font-size: 40px;
-        color:  rgba(0,0,0,.55);
+   }
+} 
+.all1{
+    
+	 width: 100%;
+	height: 800px;	
+background: url(https://cdn.motor1.com/images/mgl/0MnWm/s1/2021-tesla-model-s-plaid.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: auto;
+        background-size: cover;
 
-        transform: translate(0px,120%);
-        opacity: 0;
-        transition: all 0.8s ease 3.5s;
-    }
-    .Model._active{
-         
-        transform: translate(0px,0px);
-        opacity: 1;
+}
+.bg-light{
+    background-color: none;
+}
+.me-auto1{
+    margin-left: 400px;
+}
+.Model{
+    text-align: center;
+    font-size: 40px;
+    color:  rgba(0,0,0,.55);
 
-    }
-    .Modely {
-            padding-right: .5rem;
-        padding-left: .5rem;
-    color: rgba(0,0,0,.55);
-        display: block;
-        padding: .5rem 1rem;
-       
-        text-decoration: none;
-       
+    transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 3.5s;
+}
+.Model._active{
+     
+    transform: translate(0px,0px);
+    opacity: 1;
 
-         transform: translate(0px,120%);
-        opacity: 0;
-        transition: all 0.8s ease 3.8s;
-    }
-    .Modely._active{
-          transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .Models {
-            padding-right: .5rem;
-        padding-left: .5rem;
-    color: rgba(0,0,0,.55);
-        display: block;
-        padding: .5rem 1rem;
-       
-        text-decoration: none;
-       
+}
+.Modely {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
 
-         transform: translate(0px,120%);
-        opacity: 0;
-        transition: all 0.8s ease 3.5s;
-    }
-    .Models._active{
-          transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .Modelx {
-            padding-right: .5rem;
-        padding-left: .5rem;
-    color: rgba(0,0,0,.55);
-        display: block;
-        padding: .5rem 1rem;
-       
-        text-decoration: none;
-       
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 3.8s;
+}
+.Modely._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.Models {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
 
-         transform: translate(0px,120%);
-        opacity: 0;
-        transition: all 0.8s ease 3.7s;
-    }
-    .Modelx._active{
-          transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .Almaty {
-            padding-right: .5rem;
-        padding-left: .5rem;
-    color: rgba(0,0,0,.55);
-        display: block;
-        padding: .5rem 1rem;
-       
-        text-decoration: none;
-       
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 3.5s;
+}
+.Models._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.Modelx {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
 
-         transform: translate(0px,120%);
-        opacity: 0;
-        transition: all 0.8s ease 3.9s;
-    }
-    .Almaty._active{
-          transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .login {
-            padding-right: .5rem;
-        padding-left: .5rem;
-    color: rgba(0,0,0,.55);
-        display: block;
-        padding: .5rem 1rem;
-       
-        text-decoration: none;
-       
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 3.7s;
+}
+.Modelx._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.Almaty {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
 
-         transform: translate(0px,120%);
-        opacity: 0;
-        transition: all 0.8s ease 4s;
-    }
-    .login._active{
-          transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .logout {
-            padding-right: .5rem;
-        padding-left: .5rem;
-    color: rgba(0,0,0,.55);
-        display: block;
-        padding: .5rem 1rem;
-       
-        text-decoration: none;
-       
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 3.9s;
+}
+.Almaty._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.login {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
 
-         transform: translate(0px,120%);
-        opacity: 0;
-        transition: all 0.8s ease 4.1s;
-    }
-    .logout._active{
-          transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .Model3 {
-            padding-right: .5rem;
-        padding-left: .5rem;
-    color: rgba(0,0,0,.55);
-        display: block;
-        padding: .5rem 1rem;
-       
-        text-decoration: none;
-       
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 4s;
+}
+.login._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.logout {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
 
-         transform: translate(0px,120%);
-        opacity: 0;
-        transition: all 0.8s ease 3.6s;
-    }
-    .Model3._active{
-          transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .Ext{
-        text-align: center!important;
-            align-self: center!important;
-    flex: 0 0 auto;
-        width: 58.33333333%;
-        
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 4.1s;
+}
+.logout._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.Model3 {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+   
+
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 3.6s;
+}
+.Model3._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.Ext{
+    text-align: center!important;
+        align-self: center!important;
+flex: 0 0 auto;
+    width: 58.33333333%;
+    
+transform: translate(0px,140%);
+    opacity: 0;
+    transition: all 0.8s ease 0.2s;   
+}
+.Ext._active{
+      transform: translate(0px,0px);
+    opacity: 1;
+}
+.Safety{
     transform: translate(0px,140%);
-        opacity: 0;
-        transition: all 0.8s ease 0.2s;   
-    }
-    .Ext._active{
-          transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .Safety{
-        transform: translate(0px,140%);
-        opacity: 0;
-        transition: all 0.8s ease 0.8s;   
-    }
-    .Safety._active{
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .Acceleration{
-         transform: translate(0px,140%);
-        opacity: 0;
-        transition: all 0.8s ease 1s;
-    }
-    .Acceleration._active{
-         transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .Power{
-        transform: translate(0px,140%);
-        opacity: 0;
-        transition: all 0.8s ease 1s;
-    }
-    .Power._active{
-         transform: translate(0px,0px);
-        opacity: 1;
-    }
-    }
-    .geo img{
-        width: 25px;
-        margin-left: 1200px;
-        margin-top: -250px;
-    }
-    .geo p{
-        margin-left: 1250px;
-        margin-top: -150px;
-        font-size: 16pt;
-        color:  rgba(0,0,0,.55);
-    }
-    .all2{
-        
-         width: 100%;
-        height: 800px;  
-    background: url(https://pbs.twimg.com/media/E83beR1XEAoOFyv.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: auto;
-            background-size: cover;
+    opacity: 0;
+    transition: all 0.8s ease 0.8s;   
+}
+.Safety._active{
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+.Acceleration{
+     transform: translate(0px,140%);
+    opacity: 0;
+    transition: all 0.8s ease 1s;
+}
+.Acceleration._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+.Power{
+    transform: translate(0px,140%);
+    opacity: 0;
+    transition: all 0.8s ease 1s;
+}
+.Power._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+}
+.geo img{
+    width: 25px;
+    margin-left: 1200px;
+    margin-top: -250px;
+}
+.geo p{
+    margin-left: 1250px;
+    margin-top: -150px;
+    font-size: 16pt;
+    color:  rgba(0,0,0,.55);
+}
+.all2{
+    
+     width: 100%;
+    height: 800px;  
+background: url(https://pbs.twimg.com/media/E83beR1XEAoOFyv.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: auto;
+        background-size: cover;
+
+}
+.all3{
+    
+     width: 100%;
+    height: 800px;  
+background: url(https://avtoblog.ua/Media/files/filemanager/17%20октябряNew%20folder/New%20folder/18%20октябряNew%20folder/New%20folder/19%20октябряNew%20folder/New%20folder/20%20октябряNew%20folder/1459879770_2016-tesla-model-x-p90d-front-three-quarter-in-motion-e1459357719515.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: auto;
+        background-size: cover;
+
+}
+.all4{
+    
+     width: 100%;
+    height: 800px;  
+background: url(https://www.windowtintandkits.com/wp-content/uploads/2018/12/project-tifany-x-tesla-model-x-p90d-pearl-white-22-inch-forged-wheels-carbon-fiber-steering-wheel-2.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: auto;
+        background-size: cover;
+
+}
+.all5{
+    
+     width: 100%;
+    height: 800px;  
+background: url(https://www.motortrend.com/uploads/sites/5/2017/11/2017-Tesla-Model-3-front-three-quarter-in-motion-01.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: auto;
+        background-size: cover;
+
+}
+.all6{
+    margin-top: -20px;
+     width: 100%;
+    height: 800px;  
+background: url(https://somanyhorses.ru/wp-content/images/news/avto-novosti/2018/02/tesla-model-3-priedet-v-rossiju-i-budet-prodavatsja-v-dvuh-versijah/1.JPG) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: auto;
+        background-size: cover;
+
+}
+.ModelX{
+    text-align: center;
+    font-size: 45px;
+    color:  rgba(0,0,0,.55);
 
     }
-    .all3{
-        
-         width: 100%;
-        height: 800px;  
-    background: url(https://avtoblog.ua/Media/files/filemanager/17%20октябряNew%20folder/New%20folder/18%20октябряNew%20folder/New%20folder/19%20октябряNew%20folder/New%20folder/20%20октябряNew%20folder/1459879770_2016-tesla-model-x-p90d-front-three-quarter-in-motion-e1459357719515.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: auto;
-            background-size: cover;
-
-    }
-    .all4{
-        
-         width: 100%;
-        height: 800px;  
-    background: url(https://www.windowtintandkits.com/wp-content/uploads/2018/12/project-tifany-x-tesla-model-x-p90d-pearl-white-22-inch-forged-wheels-carbon-fiber-steering-wheel-2.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: auto;
-            background-size: cover;
-
-    }
-    .all5{
-        
-         width: 100%;
-        height: 800px;  
-    background: url(https://www.motortrend.com/uploads/sites/5/2017/11/2017-Tesla-Model-3-front-three-quarter-in-motion-01.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: auto;
-            background-size: cover;
-
-    }
-    .all6{
-        margin-top: -20px;
-         width: 100%;
-        height: 800px;  
-    background: url(https://somanyhorses.ru/wp-content/images/news/avto-novosti/2018/02/tesla-model-3-priedet-v-rossiju-i-budet-prodavatsja-v-dvuh-versijah/1.JPG) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: auto;
-            background-size: cover;
-
-    }
-    .ModelX{
-        text-align: center;
-        font-size: 45px;
-        color:  rgba(0,0,0,.55);
-
-        }
-     .ModelX1{
-      
-         transform: translate(0px,120%);
-        opacity: 0;
-        transition: all 0.8s ease 0s;
-    }
-    .ModelX1._active{
-         transform: translate(0px,0px);
-        opacity: 1;
-    }
-     .Model31{
-      
-         transform: translate(0px,120%);
-        opacity: 0;
-        transition: all 0.8s ease 0s;
-    }
-    .Model31._active{
-         transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .c{
-      
-         transform: translate(0px,120%);
-        opacity: 0;
-        transition: all 0.8s ease 0s;
-    }
-    .c._active{
-         transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .km1{
-         font-size: 40px;
-        margin-top: 100px;
-      
-    }
-    .km{
-         font-size: 40px;
-        margin-top: 100px;
-         transform: translate(0px,140%);
-        opacity: 0;
-        transition: all 0.8s ease 0.2s;
-    }
-    .km._active{
-         transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .stock{
-       
-         transform: translate(0px,140%);
-        opacity: 0;
-        transition: all 0.8s ease 0.2s;
-    }
-    .stock._active{
-         transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .sec{
-       
-         transform: translate(0px,140%);
-        opacity: 0;
-        transition: all 0.8s ease 0.2s;
-    }
-    .sec._active{
-         transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .sec2{
-       
-         transform: translate(0px,140%);
-        opacity: 0;
-        transition: all 0.8s ease 0.3s;
-    }
-    .sec2._active{
-         transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .ls{
-       
-         transform: translate(0px,140%);
-        opacity: 0;
-        transition: all 0.8s ease 0.4s;
-    }
-    .ls._active{
-         transform: translate(0px,0px);
-        opacity: 1;
-    }
-    .c{
-        margin-top: -100px;
-        margin-left: 300px;
-        font-size: 40px;
-        color:  white;      
-    }
-    .kmc{
-        margin-top:-15px;
-        margin-left: 300px;
-      
-        color:  white;  }
-        .Model3{
-        text-align: center;
-        font-size: 45px;
-        color:  rgba(0,0,0,.55);
-    }
-    .Model3low {
-            padding-right: .5rem;
-        padding-left: .5rem;
-    color: rgba(0,0,0,.55);
-        display: block;
-        padding: .5rem 1rem;
-       
-        text-decoration: none;
-    }
+ .ModelX1{
+  
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.ModelX1._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+ .Model31{
+  
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.Model31._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+.c{
+  
+     transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.c._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+.km1{
+     font-size: 40px;
+    margin-top: 100px;
+  
+}
+.km{
+     font-size: 40px;
+    margin-top: 100px;
+     transform: translate(0px,140%);
+    opacity: 0;
+    transition: all 0.8s ease 0.2s;
+}
+.km._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+.stock{
+   
+     transform: translate(0px,140%);
+    opacity: 0;
+    transition: all 0.8s ease 0.2s;
+}
+.stock._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+.sec{
+   
+     transform: translate(0px,140%);
+    opacity: 0;
+    transition: all 0.8s ease 0.2s;
+}
+.sec._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+.sec2{
+   
+     transform: translate(0px,140%);
+    opacity: 0;
+    transition: all 0.8s ease 0.3s;
+}
+.sec2._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+.ls{
+   
+     transform: translate(0px,140%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.ls._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+.c{
+    margin-top: -100px;
+    margin-left: 300px;
+    font-size: 40px;
+    color:  white;      
+}
+.kmc{
+    margin-top:-15px;
+    margin-left: 300px;
+  
+    color:  white;  }
+    .Model3{
+    text-align: center;
+    font-size: 45px;
+    color:  rgba(0,0,0,.55);
+}
+.Model3low {
+        padding-right: .5rem;
+    padding-left: .5rem;
+color: rgba(0,0,0,.55);
+    display: block;
+    padding: .5rem 1rem;
+   
+    text-decoration: none;
+}
