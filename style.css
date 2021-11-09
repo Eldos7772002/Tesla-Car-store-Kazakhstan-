@@ -373,16 +373,7 @@ background: url(https://somanyhorses.ru/wp-content/images/news/avto-novosti/2018
      transform: translate(0px,0px);
     opacity: 1;
 }
-.c{
-  
-     transform: translate(0px,120%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
-}
-.c._active{
-     transform: translate(0px,0px);
-    opacity: 1;
-}
+
 .km1{
      font-size: 40px;
     margin-top: 100px;
@@ -396,6 +387,26 @@ background: url(https://somanyhorses.ru/wp-content/images/news/avto-novosti/2018
     transition: all 0.8s ease 0.2s;
 }
 .km._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+.kmc1{
+     
+     transform: translate(0px,140%);
+    opacity: 0;
+    transition: all 0.8s ease 0.2s;
+}
+.kmc1._active{
+     transform: translate(0px,0px);
+    opacity: 1;
+}
+.awd{
+     
+     transform: translate(0px,140%);
+    opacity: 0;
+    transition: all 0.8s ease 0.2s;
+}
+.awd._active{
      transform: translate(0px,0px);
     opacity: 1;
 }
